@@ -28,7 +28,7 @@ public class DB {
         try
         {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            String url = "jdbc:sqlserver://localhost;databaseName=BD_SEGURIDAD_JBARRANCO;user=sa;password=admin;";
+            String url = "jdbc:sqlserver://localhost;databaseName=BD_SEGURIDAD;user=sa;password=Qu4l1ty";
             conexion= DriverManager.getConnection(url);
         }
         catch(ClassNotFoundException ex)
